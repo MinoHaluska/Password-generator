@@ -62,7 +62,6 @@ export class AppComponent {
 
   lengthChange(event){
     this.passwordLength = parseInt(event)
-    console.log(this.passwordLength)
   }
 
   disabledButton(){
